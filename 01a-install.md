@@ -51,7 +51,7 @@ However, this is completely optional as Anaconda is an all-in-one package manage
 
 Did you install Python 2 or 3? Why?  
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> I have both already installed. Will aim to use 3 as it is configured for HackerRank and also the newer stable version. 
 
 ### Q2. Which Python Version Installed   
 
@@ -59,7 +59,7 @@ In the Terminal:
 
 `python3 --version`
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>>3.6.4
 
  
 
