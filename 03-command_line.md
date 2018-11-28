@@ -36,41 +36,44 @@ Ctr + A = go to beginning of line you're typing on
 Ctr + E = end of line
 Ctr + L = clears screen 
 Ctr + C = kills program
-
-
-
-
-
 ---
 
 ### Q2.  List Files in Unix   
 
 What do the following commands do:  
-`ls`  
-`ls -a`  
-`ls -l`  
-`ls -lh`  
-`ls -lah`  
-`ls -t`  
-`ls -Glp`  
+`ls` - shows all non-hidden files in directory  
+`ls -a` - shows hidden and non hidden files in a directory
+`ls -l`  - shows files with their read/write permissions and more metadata
+`ls -lh`  - To display file size in human readable form
+`ls -lah - shows hidden files with size in a human readable form`  
+`ls -t`  -sorts files by modification time
+`ls -Glp` -G removes groups, p appends directories
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
-
+> > see above for list of what commands do.
 ---
 
 ### Q3.  More List Files in Unix  
 
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
-
+> > My response:
+ls -c displays by timestamp
+ls -r displays in reverse order
+ls -u displays files by access time
+ls -q displays all nonprinting characters as ?
+ls -i Displays inode for each file
 ---
 
 ### Q4.  Xargs   
 
 What does `xargs` do? Give an example of how to use it.
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> >xargs is like a function from my quick reading of it. You can give it input variables and a command or function to call. Example:
+
+''' echo '1 2 3' | xargs touch
+'''
+
+That command will create 3 files called 1 2 3 in the current directory.
 
  
 
