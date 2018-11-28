@@ -20,7 +20,26 @@ Here's a list of items with which you should be familiar:
 
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do.  (Use the 8 items above and add a couple of your own.)  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+Top 8 from list of items above:
+ls
+mkdir
+rm -r mydir
+touch file1
+rm file1
+mv file1 file1a
+defaults write com.apple.finder AppleShowAllFiles YES.
+cp source destination
+
+2 new ones:
+cd = change directory
+Ctr + A = go to beginning of line you're typing on 
+Ctr + E = end of line
+Ctr + L = clears screen 
+Ctr + C = kills program
+
+
+
+
 
 ---
 
