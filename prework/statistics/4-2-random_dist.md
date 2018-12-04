@@ -6,7 +6,7 @@
 
 ## See graphs below:
 
-![Plot of PMF of 1000 numbers from np.random.random](PMFplot.png)  
+![Plot of PMF of 1000 numbers from np.random.random](PMF.png)  
 
-![Plot of CDF of 1000 numbers from np.random.random](CDFplot.png)
+![Plot of CDF of 1000 numbers from np.random.random](CDF.png)
 
